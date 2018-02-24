@@ -1,0 +1,63 @@
+@new-big-name: 'new_big';
+@new-big-x: 0px;
+@new-big-y: 0px;
+@new-big-offset-x: 0px;
+@new-big-offset-y: 0px;
+@new-big-width: 73px;
+@new-big-height: 73px;
+@new-big-total-width: 146px;
+@new-big-total-height: 73px;
+@new-big-image: '../images/iconset.png';
+@new-big: 0px 0px 0px 0px 73px 73px 146px 73px '../images/iconset.png' 'new_big';
+@sale-big-name: 'sale_big';
+@sale-big-x: 73px;
+@sale-big-y: 0px;
+@sale-big-offset-x: -73px;
+@sale-big-offset-y: 0px;
+@sale-big-width: 73px;
+@sale-big-height: 73px;
+@sale-big-total-width: 146px;
+@sale-big-total-height: 73px;
+@sale-big-image: '../images/iconset.png';
+@sale-big: 73px 0px -73px 0px 73px 73px 146px 73px '../images/iconset.png' 'sale_big';
+@spritesheet-width: 146px;
+@spritesheet-height: 73px;
+@spritesheet-image: '../images/iconset.png';
+@spritesheet-sprites: @new-big @sale-big;
+@spritesheet: 146px 73px '../images/iconset.png' @spritesheet-sprites;
+
+.sprite-width(@sprite) {
+  width: extract(@sprite, 5);
+}
+
+.sprite-height(@sprite) {
+  height: extract(@sprite, 6);
+}
+
+.sprite-position(@sprite) {
+  @sprite-offset-x: extract(@sprite, 3);
+  @sprite-offset-y: extract(@sprite, 4);
+  background-position: @sprite-offset-x @sprite-offset-y;
+}
+
+.sprite-image(@sprite) {
+  @sprite-image: extract(@sprite, 9);
+  @sprite-image-bare: ~`"@{sprite-image}".slice(1, -1)`;
+  background-image: url(@sprite-image-bare);
+}
+
+.sprite(@sprite) {
+  .sprite-image(@sprite);
+  .sprite-position(@sprite);
+  .sprite-width(@sprite);
+  .sprite-height(@sprite);
+}
+
+.sprites(@sprites, @i: 1) when (@i <= length(@sprites)) {
+  @sprite: extract(@sprites, @i);
+  @sprite-name: e(extract(@sprite, 10));
+  .@{sprite-name} {
+    .sprite(@sprite);
+  }
+  .sprites(@sprites, @i + 1);
+}

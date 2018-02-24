@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="96" viewBox="0 0 100 96">
+    <g fill="none" fill-rule="evenodd">
+        <g stroke="#545352" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+            <path d="M1 25h98v4H1zM1 58h98v4H1zM1 91h98v4H1z"/>
+        </g>
+        <g transform="translate(4 1)">
+            <path stroke="#545352" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 35.5V31H4v4.5A7.497 7.497 0 0 1 2.5 40 7.497 7.497 0 0 0 1 44.5V57h11V44.5a7.497 7.497 0 0 0-1.5-4.5A7.497 7.497 0 0 1 9 35.5zM25 35.5V31h-5v4.5a7.497 7.497 0 0 1-1.5 4.5 7.497 7.497 0 0 0-1.5 4.5V57h11V44.5a7.497 7.497 0 0 0-1.5-4.5 7.497 7.497 0 0 1-1.5-4.5zM41 35.5V31h-5v4.5a7.497 7.497 0 0 1-1.5 4.5 7.497 7.497 0 0 0-1.5 4.5V57h11V44.5a7.497 7.497 0 0 0-1.5-4.5 7.497 7.497 0 0 1-1.5-4.5zM57 35.5V31h-5v4.5a7.497 7.497 0 0 1-1.5 4.5 7.497 7.497 0 0 0-1.5 4.5V57h11V44.5a7.497 7.497 0 0 0-1.5-4.5 7.497 7.497 0 0 1-1.5-4.5zM73 35.5V31h-5v4.5a7.497 7.497 0 0 1-1.5 4.5 7.497 7.497 0 0 0-1.5 4.5V57h11V44.5a7.497 7.497 0 0 0-1.5-4.5 7.497 7.497 0 0 1-1.5-4.5zM89 35.5V31h-5v4.5a7.497 7.497 0 0 1-1.5 4.5 7.497 7.497 0 0 0-1.5 4.5V57h11V44.5a7.497 7.497 0 0 0-1.5-4.5 7.497 7.497 0 0 1-1.5-4.5z"/>
+            <g stroke="#545352" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                <path d="M21 79H2v.45c0 3.638.943 7.214 2.736 10.379l.097.171H18c1.963-3.272 3-7.015 3-10.831V79zM44 79H25v.45c0 3.638.943 7.214 2.736 10.379l.097.171H41c1.963-3.272 3-7.015 3-10.831V79zM67 79H48v.45c0 3.638.943 7.214 2.736 10.379l.097.171H64c1.963-3.272 3-7.015 3-10.831V79zM90 79H71v.45c0 3.638.943 7.214 2.736 10.379l.097.171H87c1.963-3.272 3-7.015 3-10.831V79z"/>
+                <path d="M33 68H14v.45c0 3.638.943 7.214 2.736 10.379l.097.171H30c1.963-3.272 3-7.015 3-10.831V68zM56 68H37v.45c0 3.638.943 7.214 2.736 10.379l.097.171H53c1.963-3.272 3-7.015 3-10.831V68zM79 68H60v.45c0 3.638.943 7.214 2.736 10.379l.097.171H76c1.963-3.272 3-7.015 3-10.831V68z"/>
+            </g>
+            <path fill="#CD7524" fill-rule="nonzero" d="M4 44h5v10H4zM20 44h5v10h-5zM36 44h5v10h-5zM52 44h5v10h-5zM68 44h5v10h-5zM84 44h5v10h-5z"/>
+            <circle cx="6.5" cy="17.5" r="6.5" stroke="#545352" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+            <circle cx="22.5" cy="17.5" r="6.5" stroke="#545352" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+            <circle cx="14.5" cy="6.5" r="6.5" stroke="#545352" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+            <circle cx="38.5" cy="17.5" r="6.5" stroke="#545352" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+            <circle cx="54.5" cy="17.5" r="6.5" stroke="#545352" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+            <circle cx="46.5" cy="6.5" r="6.5" stroke="#545352" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+            <circle cx="70.5" cy="17.5" r="6.5" stroke="#545352" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+            <circle cx="86.5" cy="17.5" r="6.5" stroke="#545352" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+            <circle cx="78.5" cy="6.5" r="6.5" stroke="#545352" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+    </g>
+</svg>

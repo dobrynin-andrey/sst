@@ -1,0 +1,158 @@
+/****
+ * Process-imp - section
+ ****/
+
+.cases {
+  width: 100%;
+  position: relative;
+  padding: 60px 20px;
+  margin: 0 auto;
+  font-size: 0;
+  .sizing();
+  border-top: 1px solid #e8e8e8;
+
+  & h2 {
+    font: 600 28px/44px @bold;
+    color: @black;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &__wrap {
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    padding: 60px 20px 0;
+    margin: 0 auto;
+    .sizing();
+    position: relative;
+
+    & .slick-dots {
+      bottom: -30px!important;
+    }
+
+    &-pic {
+      width: 40%;
+      display: inline-block;
+      vertical-align: middle;
+      text-align: right;
+
+      &_container {
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        border: solid 1px #e8e8e8;
+        text-align: center;
+        position: relative;
+        display: inline-block;
+        margin-right: 25%;
+
+        & img {
+          width: 80%;
+          position: absolute;
+          margin: auto;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          right: 0;
+        }
+      }
+    }
+
+    &-text {
+      width: 60%;
+      display: inline-block;
+      vertical-align: middle;
+      padding: 0 100px 0 0;
+      .sizing();
+
+      & h3 {
+        font: 600 18px/24px @bold;
+        color: @orange;
+      }
+
+      & p {
+        font: 300 13px/18px @light;
+         color: @black;
+        margin: 0 0 20px;
+      }
+
+      &_scroll {
+        height: 120px;
+        margin-top: 20px;
+      }
+    }
+  }
+
+
+  &__link {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 60px;
+  }
+}
+
+
+@media screen and (max-width: 920px) {
+  .cases__wrap-text {
+    padding: 0 30px 0 0;
+  }
+
+  .cases__wrap-pic_container {
+    margin-right: 20%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cases__wrap-text {
+    padding: 0 10px 0 0;
+  }
+
+  .cases__wrap-pic_container {
+    margin-right: 15%;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .cases h2 {
+    font: 600 18px/24px OS-bold;
+  }
+
+  .cases {
+    padding: 40px 20px;
+  }
+
+  .cases__wrap-pic {
+    width: 100%;
+    text-align: center;
+  }
+
+  .cases__wrap-pic_container {
+    margin-right: 0;
+  }
+
+  .cases__wrap-text {
+    padding: 0;
+    width: 100%;
+  }
+
+  .nt-cases, .pr-cases {
+    top: 35%;
+  }
+
+  .cases__wrap-text {
+    padding: 20px 0;
+    width: 100%;
+  }
+
+  .cases__wrap {
+    padding: 40px 20px 0;
+  }
+
+  .cases__wrap-text_scroll {
+    height: 230px;
+  }
+}
+
+

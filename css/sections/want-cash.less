@@ -1,0 +1,113 @@
+/****
+ * Process-imp - section
+ ****/
+
+.want-cach {
+  width: 100%;
+  position: relative;
+  padding: 60px 0;
+  margin: 0 auto;
+  font-size: 0;
+  .sizing();
+  background-color: #f9f9f8;
+  text-align: center;
+
+  &__content {
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    padding: 60px 0 0;
+    margin: 0 auto;
+    font-size: 0;
+    .sizing();
+  }
+
+  & h2 {
+    font: 600 28px/44px @bold;
+    color: @orange;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  & span {
+    font: normal 14px/20px @regular;
+    color: @black;
+  }
+
+  &__slider {
+    text-align: center;
+    .sizing();
+
+    & .slick-list {
+      padding: 0;
+    }
+
+    & div {
+      padding: 0 40px;
+    }
+
+    & h3 {
+      font: 600 14px/22px @bold;
+      color: @orange;
+      text-align: left;
+    }
+
+    & p {
+      font: 300 13px/20px @light;
+      color: @black;
+      text-align: left;
+    }
+
+    & img {
+      display: inline-block;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  .want-cach__slider div {
+    padding: 0 40px 0 20px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .want-cach h2 {
+    font: 600 18px/24px OS-bold;
+    color: #ff5200;
+    margin-bottom: 20px;
+    padding: 0 20px;
+  }
+
+  .want-cach {
+    padding: 40px 0;
+  }
+
+  .want-cach__slider div {
+    text-align: center;
+    padding: 0;
+    .sizing();
+  }
+
+  .want-cach__slider .slick-dots {
+    bottom: -20px!important;
+  }
+
+  .want-cach__content {
+    padding: 60px 20px 0;
+  }
+
+  .want-cach__slider h3, .want-cach__slider p {
+    text-align: center;
+  }
+
+  .want-cach span {
+    font: 400 11px/20px OS-regular;
+    padding: 0 20px;
+    display: inline-block;
+  }
+}
+
+
