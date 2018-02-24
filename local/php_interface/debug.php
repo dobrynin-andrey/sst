@@ -1,14 +1,5 @@
 <?php
 
-function debugmessage($ar)
-{
-    global $USER;
-    if (!$USER->isAdmin()) return;
-    echo "<pre>";
-    print_r($ar);
-    echo "</pre>";
-}
-
 function pre($obj,$f=true)
 {
 
