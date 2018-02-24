@@ -24,7 +24,7 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
         <ul class="header-wrap__menu">
             <li><a class="js-main-modules" href="#main-modules">Модули SCO</a></li>
             <li><a class="js-technology" href="#technology">Как работает технология</a></li>
-            <li><a class="js-options-sco" href="#options-sco">Вареанты комплектации SCO</a></li>
+            <li><a class="js-options-sco" href="#options-sco">Варианты комплектации SCO</a></li>
             <li><a class="js-e-effect" href="#e-effect">Экономический эффект</a></li>
             <li><a href="#contacts">Контакты</a></li>
         </ul>
