@@ -2,3 +2,5 @@
 /bitrix/*
 /upload/*
 .DS_Store
+/front/*
+/video/*
