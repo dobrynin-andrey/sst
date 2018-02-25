@@ -11,7 +11,7 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <title><?$APPLICATION->ShowTitle();?></title>
     <meta name="author" content="Mahaev - Creative Designer"/>
-    <link rel="stylesheet" href="/css/style.min.css?v=0.4"> <!-- Resource style -->
+    <link rel="stylesheet" href="/css/style.min.css?v=0.5"> <!-- Resource style -->
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 </head>
 <body>
@@ -611,7 +611,7 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
         </div>
     </div>
 </div>
-<script src="/js/script.min.js?v=0.4"></script> <!-- Resource js -->
-<script src="/js/backend.js?v=0.1"></script> <!-- Backend js -->
+<script src="/js/script.min.js?v=0.5"></script> <!-- Resource js -->
+<script src="/js/backend.js?v=0.2"></script> <!-- Backend js -->
 </body>
 </html>
