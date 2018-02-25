@@ -216,7 +216,7 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
             <p>SCO Cash Bag Биоптический сканер Datalogic Magellan 9300i 2D с весовым модулем</p>
         </div>
         <div class="options-sco__box">
-            <img src="i/mages/cashbox_nocash.png">
+            <img src="/images/cashbox_nocash.png">
             <h3>Комплектация №2</h3>
             <p>SCO NonCash Bag Биоптический сканер Datalogic Magellan 9300i 2D с весовым модулем</p>
         </div>
