@@ -1171,6 +1171,23 @@ video {
   -ms-transform: scale(1.3);
   transform: scale(1.3);
 }
+.main-modules__content li {
+  font: 300 13px/18px OS-light;
+  color: #4a4847;
+  position: relative;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+.main-modules__content li:before {
+  width: 6px;
+  height: 6px;
+  border-radius: 10px;
+  background: #ff5200;
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: 4px;
+}
 .svg-svg--arrow-left {
   background: url("svg/sprite.css-132fb038.svg") no-repeat;
   background-position: 0 0;
@@ -1756,7 +1773,7 @@ video {
 .main-modules__content p {
   font: 300 13px/18px OS-light;
   color: #4a4847;
-  margin: 0 0 40px;
+  margin: 0 0 20px;
 }
 .main-modules__content_scroll {
   height: 310px;
